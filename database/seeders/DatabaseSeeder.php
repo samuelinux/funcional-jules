@@ -18,8 +18,8 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::create([
-            'name' => 'Administrador',
-            'email' => 'admin@admin.com',
+            'name' => 'Cristóvão Bahiense dos Santos',
+            'email' => 'cristovao.santos@cachoeiro.es.gov.br',
             'password' => bcrypt('password'),
             'perfil' => 'admin',
             'cpf' => '000.000.000-00',
